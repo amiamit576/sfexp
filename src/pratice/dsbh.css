@@ -1,0 +1,50 @@
+.Dbheader-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #95c4f3;
+  }
+  
+  .Dbheader-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Dbh-icon {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .Dbh-logo {
+    height: 40px;
+  }
+  
+  .Dbheader-user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .Dbheader-user-info span {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .Dbh-logout-button {
+    display: flex;
+    align-items: center;
+    background-color:#FF6969;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Dbh-logout-icon {
+    margin-right: 5px;
+  }
+  
+  

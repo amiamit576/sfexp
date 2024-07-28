@@ -1,0 +1,87 @@
+.dbsideBarContainer {
+  width: 250px;
+  height: calc(100vh - 60px);
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #e9ecef;
+  font-family: 'Arial', sans-serif;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.dbsearch {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 20px;
+}
+
+.dbsSearchinput {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.dbsideSection {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+  color: #007bff;
+  font-size: 18px;
+  border-bottom: 1px solid #e9ecef;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.dbsideSection span {
+  display: flex;
+  align-items: center;
+}
+
+.dbsideSection .dbside-logo-icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.dbsideSection:hover {
+  background-color: #e9ecef;
+  box-shadow: inset 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dbside-list-container {
+  padding-left: 30px;
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.dbside-list-container li {
+  padding: 5px 0;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 16px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.dbside-list-container li:hover {
+  color: #007bff;
+  transform: translateX(5px);
+  box-shadow: inset 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dbside-logo-icon.logout {
+  color: rgb(247, 67, 67);
+}
+
+.dbhlogout {
+  color: rgb(247, 67, 67);
+}
+
+.angle {
+  margin-left: 5px;
+}

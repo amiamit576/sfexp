@@ -1,0 +1,14 @@
+.container {
+    background-color: white;
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    min-width: 100vw;
+  
+ /* Center the content horizontally */
+
+}
+
+.title {
+    color: black; /* Or any other color you want for the text */
+}
+
+  

@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-image: url("../assets/forget.jpg");
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0,0,0,.1);
+}
+
+.imgcontainer{
+    margin: 15px;
+}
+.avatar{
+    height: 60px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Form container styles */
+.resetformContainer {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid black;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.4); 
+
+}
+
+/* Password input styles */
+.psw, .confirmPsw {
+    width: calc(100% - 3px); /* Adjusted width to accommodate icon */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-container:hover{
+   background-color: rgba(180, 180, 180,0.2)
+
+}
+
+.psw input, .confirmPsw input {
+    width: calc(100% - 1px);
+    padding: 14px 47px;
+    font-size: 13px;
+    border: 2px solid #a5a3a3;
+    border-radius: 22px;
+    outline: none;
+    background: transparent;
+    color:white;
+}
+
+.psw input::placeholder, .confirmPsw input::placeholder {
+    color: #ccc; 
+    font-style: italic; 
+}
+
+.resetFontICon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 13px;
+    color: plum;
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.btn-submit {
+    background-color: #1e90ff; /* Sky blue color */
+    color: #fff;
+}
+
+.btn-cancel {
+    background-color: #ff6347; /* Red color */
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
